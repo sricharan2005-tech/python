@@ -1,0 +1,10 @@
+a = int(input("enter num: "))
+
+total = 0
+
+while a != 0:
+    rem = a % 10
+    total = total + rem
+    a = a // 10
+
+print("sum:", total)
